@@ -18,6 +18,8 @@ AdventureWorks es una base de datos transaccional que representa una empresa de 
 
 ## Requerimientos del Negocio
 
+![Texto alternativo](./Imagenes/requerimientos_negocio.png)
+
 ## Data Modeling
 
 Implementación del Data Mart.
@@ -29,17 +31,28 @@ El proyecto utiliza el modelo estrella conformado por las siguientes tablas:
 - DIM_PRODUCTO: Se registran los productos de la empresa.
 - DIM_TIEMPO: Se registran las fechas de las órdenes de compra.
 
+![Texto alternativo](./Imagenes/Data_mart.png)
+
 ## ETL
 
 El proceso ETL consta de 3 pasos que permiten la integración de datos desde el origen (BD transaccional) hasta el destino (Data Mart): extracción de datos, transformación de datos y carga de datos.
 
 ### Data Flow Dim_Producto
+![Texto alternativo](./Imagenes/Dim_producto.png)
 ### Data Flow Dim_Cliente
+![Texto alternativo](./Imagenes/Dim_cliente.png)
 ### Data Flow Dim_Tiempo
+![Texto alternativo](./Imagenes/DimTiempo.png)
 ### Data Flow Fact_Ventas
+![Texto alternativo](./Imagenes/FactVentas.png)
 ### General Control Flow
+![Texto alternativo](./Imagenes/General_control.png)
 
 ## Dashboards
+
+![Texto alternativo](./Imagenes/Dashboard_1.png)
+![Texto alternativo](./Imagenes/Dashboard_2.png)
+![Texto alternativo](./Imagenes/Dashboard_3.png)
 
 
 ## Conclusiones
